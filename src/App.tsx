@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import './App.css'
-import UserRegister from './components/UserRegister'
+import UserRegister from './components/user_register/UserRegister.tsx'
 
 function App() {
   const [] = useState(0)
