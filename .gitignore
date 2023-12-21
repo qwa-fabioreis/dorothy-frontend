@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Pasta de aprendizado
+
+src/components/Aprendizado
+src/components/Aprendizado/**

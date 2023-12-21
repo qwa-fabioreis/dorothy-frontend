@@ -1,14 +1,16 @@
-import { useState } from 'react'
-import UserRegister from './components/user_register/UserRegister.tsx'
+import { BrowserRouter as Router } from "react-router-dom";
+import NavBar from "./Layout/Header/NavBar";
+import Footer from "./Layout/Footer/Footer";
+import AplicationsRouts from "./Configuration/ApplicationRouts";
 
 function App() {
-  const [] = useState(0)
-
   return (
-    <>
-    <UserRegister />
-    </>
-  )
+    <Router>
+      <NavBar />
+      <AplicationsRouts />
+      <Footer />
+    </Router>
+  );
 }
 
-export default App
+export default App;
